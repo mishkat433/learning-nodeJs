@@ -3,10 +3,10 @@
  const port = 3000;
  const localhost= "127.0.0.1"
  
- const mySetver = http.createServer((req,res)=>{
+ const myServer = http.createServer((req,res)=>{
      res.end("Hello i am your first server")
  });
 
- mySetver.listen(port,localhost,()=>{
+ myServer.listen(port,localhost,()=>{
      console.log(`Server is running at http://${localhost}:${port}`);
  })

@@ -1,0 +1,19 @@
+{
+  "name": "unit5",
+  "version": "1.0.0",
+  "description": "This is my frst external npm module project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning-npm",
+    "node.js"
+  ],
+  "author": "Mishkat",
+  "license": "ISC",
+  "dependencies": {
+    "movies-names": "^1.1.1",
+    "random-fruits-name": "^1.9.2"
+  }
+}

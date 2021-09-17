@@ -1,7 +1,6 @@
 const s1 = require("./student");
 
 // One function getting
-
 // const {getName} = require("./student");
 
 console.log(getName())
